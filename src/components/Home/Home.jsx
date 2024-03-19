@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react'
 import Data from '../Data'
-import * as Scroll from 'react-scroll';
+// import * as Scroll from 'react-scroll';
 import { Link } from "react-scroll";
 import '../Home/Home.css'
 import About from '../About/About'
