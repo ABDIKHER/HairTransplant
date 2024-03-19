@@ -12,6 +12,15 @@ import BookingAppointment from '../Booking/BookingAppointment'
 
 const Home = () => {
   const [frequents, setFrequents] = useState(Data);
+
+  // Function to update the frequents state
+  const handleButtonClick = () => {
+    // Example: Updating frequents state when a button is clicked
+    const newData = [...frequents]; // Create a copy of the existing state
+    // Modify newData as needed
+    newData.push({ id: newData.length + 1, question: 'New Question', answer: 'New Answer' });
+    setFrequents(newData); // Update the state
+  };
   return (
     <>
     <div className=' hero-container container' id='home'>
@@ -32,6 +41,7 @@ const Home = () => {
                return <Fqa key={frequent.id} {...frequent}/>
              })}
            </section>
+           <button onClick={handleButtonClick}>Add New FAQ</button>
          </div>
         </div>
         <Contact/>

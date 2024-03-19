@@ -1,7 +1,7 @@
 import React from 'react'
 import '../Footer/Footer.css'
 import logo from '../images/logo.jpeg'
-import * as Scroll from 'react-scroll';
+// import * as Scroll from 'react-scroll';
 import { Link } from "react-scroll";
 
 const Footer = () => {
