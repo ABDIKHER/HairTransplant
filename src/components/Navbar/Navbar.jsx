@@ -58,8 +58,8 @@ const Navbar = () => {
           <Link to="appointment" spy={true} smooth={true} offset={-20} duration={500}>Book Appointment</Link>
         </li>
         <span className="phone">
-          <a href=" tel: +254712345678">
-            <i className="fa-solid fa-phone-volume"> +254700037244</i>
+          <a href=" tel: +254721636343">
+            <i className="fa-solid fa-phone-volume"> +254721636343</i>
           </a>
         </span>
       </ul>
